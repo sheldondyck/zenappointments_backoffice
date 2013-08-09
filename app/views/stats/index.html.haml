@@ -1,0 +1,28 @@
+=render 'layouts/header'
+.container
+  %h1 Summary
+  %table.table.table-bordered.table.table-hover.table-striped
+    %tr
+      %td
+        %strong
+          Accounts:
+      %td
+        =@accounts_cnt
+    %tr
+      %td
+        %strong
+          Users:
+      %td
+        =@users_cnt
+    %tr
+      %td
+        %strong
+          Clients:
+      %td
+        =@clients_cnt
+    %tr
+      %td
+        %strong
+          Appointments:
+      %td
+        =@appointments_cnt
