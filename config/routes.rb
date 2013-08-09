@@ -5,5 +5,5 @@ ZenAppointmentsBackOffice::Application.routes.draw do
   post  'signin',                 :to => 'sessions#create'
   get   'signout',                :to => 'sessions#destroy'
 
-  root 'pages#index'
+  root 'stats#index'
 end
