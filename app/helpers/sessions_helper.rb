@@ -1,4 +1,5 @@
 module SessionsHelper
+  # TODO: this has to removed and replaced with a proper session system
   SUPER_SAFE_SECURE_LUCKY_TOKEN = 'abc1234$'
 
   def signed_in?
