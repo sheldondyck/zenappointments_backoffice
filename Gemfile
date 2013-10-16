@@ -16,7 +16,15 @@ gem 'pg'
 gem 'foreigner'
 gem 'bootstrap-sass' #, '~> 2.3.2.0'
 gem 'font-awesome-rails'
-gem 'angularjs-rails'
+#gem 'angularjs-rails'
+
+# TODO had to downgrade multi_json and sass because rails refused to init.
+# Remove these two lines and try again later
+#gem 'multi_json', '1.8.0'
+gem 'sass', '3.2.11'
+# TODO had to downgard listen because guard stopped working
+# Remove this line and try again later
+#gem 'listen', '~> 0.4.3'
 
 group :development do
   gem 'therubyracer', platforms: :ruby
